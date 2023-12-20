@@ -1,5 +1,5 @@
 /*
-Copyright C 2023 "to od"
+Copyright C 2023 https://github.com/A-N-Ulab
 Arduino calculator by ANUlab & Glinek
 
 Calculator's layout:
@@ -77,7 +77,7 @@ void loop(){
           col = HIGH_state-2;
 
           //------Setting number1-------
-          if(whichNUM == 1 && matrix[row][col] == "0" || whichNUM == 1 && matrix[row][col] == "1" || whichNUM == 1 && matrix[row][col] == "2" || whichNUM == 1 && matrix[row][col] == "3" || whichNUM == 1 && matrix[row][col] == "4" || whichNUM == 1 && matrix[row][col] == "5" || whichNUM == 1 && matrix[row][col] == "6" || whichNUM == 1 && matrix[row][col] == "7" || whichNUM == 1 && matrix[row][col] == "8" || whichNUM == 1 && matrix[row][col] == "9"){
+          if(whichNUM == 1 && matrix[row][col] == "0" || whichNUM == 1 && matrix[row][col] == "1" || whichNUM == 1 && matrix[row][col] == "2" || whichNUM == 1 && matrix[row][col] == "3" || whichNUM == 1 && matrix[row][col] == "4" || whichNUM == 1 && matrix[row][col] == "5" || whichNUM == 1 && matrix[row][col] == "6" || whichNUM == 1 && matrix[row][col] == "7" || whichNUM == 1 && matrix[row][col] == "8" || whichNUM == 1 && matrix[row][col] == "9" || whichNUM == 1 && matrix[row][col] == "."){
             //inserting and displaying floting number
             if(matrix[row][col] == ".") per1 = true; //set per1 to true if "." pressed
             if(per1) if(floatPoints1 < 5) floatPoints1++; //add 1 to floatPoints1 so floating number displayed
@@ -97,7 +97,7 @@ void loop(){
           }
 
           //------Setting number2------
-          if(whichNUM == 2 && matrix[row][col] == "0" || whichNUM == 2 && matrix[row][col] == "1" || whichNUM == 2 && matrix[row][col] == "2" || whichNUM == 2 && matrix[row][col] == "3" || whichNUM == 2 && matrix[row][col] == "4" || whichNUM == 2 && matrix[row][col] == "5" || whichNUM == 2 && matrix[row][col] == "6" || whichNUM == 2 && matrix[row][col] == "7" || whichNUM == 2 && matrix[row][col] == "8" || whichNUM == 2 && matrix[row][col] == "9"){
+          if(whichNUM == 2 && matrix[row][col] == "0" || whichNUM == 2 && matrix[row][col] == "1" || whichNUM == 2 && matrix[row][col] == "2" || whichNUM == 2 && matrix[row][col] == "3" || whichNUM == 2 && matrix[row][col] == "4" || whichNUM == 2 && matrix[row][col] == "5" || whichNUM == 2 && matrix[row][col] == "6" || whichNUM == 2 && matrix[row][col] == "7" || whichNUM == 2 && matrix[row][col] == "8" || whichNUM == 2 && matrix[row][col] == "9" || whichNUM == 2 && matrix[row][col] == "."){
             //inserting and displaying floting number
             if(matrix[row][col] == ".") per2 = true; //set per1 to true if "." pressed
             if(per2) if(floatPoints2 < 5) floatPoints2++; //add 1 to floatPoints1 so floating number displayed
