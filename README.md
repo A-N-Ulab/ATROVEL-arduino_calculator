@@ -7,7 +7,7 @@
 * [License](#License)
 
 # Story
-to do
+So in school we were learning how to use 4x4 button matrix and while the rest of my class was strugling with it I was a little bit bored and decided to make calculator using it (I have always been thinking about it and never had enough knowlage to make it. Till now). After not being able to finish it in school and two busy days of coding and designing Atrovel is done. 
 
 # Code
 to do
@@ -16,7 +16,7 @@ to do
 to do
 
 # Contributors/creators
-to do
+This project was made by Glinek under ANUlab organization
 
 # License
 This project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
