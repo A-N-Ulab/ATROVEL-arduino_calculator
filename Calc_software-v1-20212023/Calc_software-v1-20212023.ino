@@ -116,6 +116,7 @@ void loop(){
             if(STRoperator1 == "R"){
               ph1 = FLOATnumber1; //put FLOATnumber1 to ph1 (placeholder1)
               FLOATnumber1 = sqrt(ph1); //calculate square root
+              floatPoints1 = 5;
               displayedNum1 = FLOATnumber1; //set displayedNum as square root of number1
 
               //set operators to empty strings to avoid errors
