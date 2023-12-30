@@ -1,4 +1,11 @@
-![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
+<p align="center">
+  <img src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/b6a0a058-fe47-4413-b74a-1d94ea22685e">
+</p>
+<p align="center">
+  ![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
+  <img alt="Static Badge" src="https://img.shields.io/badge/skillsComp-Robotyka_Mobilna-blue">
+</p>
+
 # Table of contents:
 * [Story](#Story)
 * [Code](#Code)
