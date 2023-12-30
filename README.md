@@ -33,6 +33,7 @@ It requires to modify TP4056 BMS like that:
 
 ## Software
 Upload latest arduino code to your board and you are ready to go
+Latest code: ```Calc_software_v1_27122023```
 
 ### Known problems
 If you ar going to do some calculations e.g. 2+2 and then press square root of it, it won't work. But if you press 4 and then square root of it, it will work.
