@@ -8,9 +8,6 @@
 </p>
 
 # Make your own
-A guide on how to make your own Atrovel calculator
-
-
 ## Components
 * Arduino Nano/Arduino Pro Micro/Raspberry Pi pico - (I'm using RPI pico), anything small enough to fit inside will work
 * 0.96 display
