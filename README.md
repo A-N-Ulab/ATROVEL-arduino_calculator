@@ -1,29 +1,26 @@
 <p align="center">
-  <img src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/b6a0a058-fe47-4413-b74a-1d94ea22685e">
+  <img src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/e850ed00-7e9a-429c-a55f-dce7ee2740c8">
 </p>
 <p align="center">
-  ![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
-  <img alt="Static Badge" src="https://img.shields.io/badge/skillsComp-Robotyka_Mobilna-blue">
+  <img alt="Static Badge" src="https://img.shields.io/badge/ANUlab-Atrovel-blue">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/A-N-Ulab/ATROVEL-arduino_calculator">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/A-N-Ulab/ATROVEL-arduino_calculator">
 </p>
 
-# Table of contents:
-* [Story](#Story)
-* [Code](#Code)
-* [Make your own](#Make_your_own)
-* [Contributors/creators](#Contributors/creators)
-* [License](#License)
+# Make your own
+A guide on how to make your own Atrovel calculator
 
-# Story
-So in school we were learning how to use 4x4 button matrix and while the rest of my class was strugling with it I was a little bit bored and decided to make calculator using it (I have always been thinking about it and never had enough knowlage to make it. Till now). After not being able to finish it in school and two busy days of coding and designing Atrovel is done. 
+## Components
+* Arduino Nano/Arduino Pro Micro/
 
-# Code
-to do
+## Case
 
-# Make_your_own
-to do
 
-# Contributors/creators
-This project was made by Glinek under ANUlab organization
+## Electric Diagram
+
+## Software
+
+## Known problems
 
 # License
 This project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
