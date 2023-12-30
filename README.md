@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/e850ed00-7e9a-429c-a55f-dce7ee2740c8">
+  <img src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/7beefa62-4ad7-4899-8177-702ddfd51021">
 </p>
 <p align="center">
   <img alt="Static Badge" src="https://img.shields.io/badge/ANUlab-Atrovel-blue">
@@ -11,18 +11,37 @@
 A guide on how to make your own Atrovel calculator
 
 ## Components
-* Arduino Nano/Arduino Pro Micro/
+* Arduino Nano/Arduino Pro Micro/Raspberry Pi pico - (I'm using RPI pico), anything small enough to fit inside will work
+* 0.96 display
+* 4x4 button matrix
+* two 6x6mm buttons
+* two 3mm led's
+* 18650 holder
+* 18650 Li-ion battery
+* case
+* tp4056 BMS
 
 ## Case
-
+If you want to 3D print the case use ```bottomV2.stl``` and ```main_body.stl``` from folder labeled rev2. In main_body there are holes prepered for bolts but there is no room left inside so bottom cover is glued.
 
 ## Electric Diagram
-
+Wiring diagram for RPI pico
+[Schematic Atrovel.pdf](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/files/13798303/Schematic.Atrovel.pdf)
+It requires to modify TP4056 BMS like that:
+![20231230_151600](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/efb826f4-d096-450f-b4ba-79e10b34b2af)
 
 ## Software
-C:\Users\MSI\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.0.10\variants\RASPBERRY_PI_PICO
+Upload latest arduino code to your board and you are ready to go
 
-## Known problems
+### Known problems
+If you ar going to do some calculations e.g. 2+2 and then press square root of it, it won't work. But if you press 4 and then square root of it, it will work.
+
+### **READ THIS IF YOU ARE USING RASPBERRY PI PICO**'
+For the display to work you're gonna have to declare that you are using different pins as I2C that default. Below is how i did it but there probably is a better way.
+Find file ```pinmode_arduino.h```, find it here in Windows installations of Arduino IDE:
+```C:\Users\USERNAME\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\2.5.2\variants\RASPBERRY_PI_PICO```
+Modify as below:
+![sda](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/0a93c4d0-0f1c-4c15-99ae-a7676c97000a)
 
 # License
 This project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
