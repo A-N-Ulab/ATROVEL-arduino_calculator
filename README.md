@@ -18,7 +18,9 @@ A guide on how to make your own Atrovel calculator
 
 ## Electric Diagram
 
+
 ## Software
+C:\Users\MSI\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.0.10\variants\RASPBERRY_PI_PICO
 
 ## Known problems
 
