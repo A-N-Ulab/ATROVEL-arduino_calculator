@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/7beefa62-4ad7-4899-8177-702ddfd51021">
+  <img src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/ae3fdf00-2a4e-4214-85f3-08daa32d2aa6">
 </p>
 <p align="center">
   <img alt="Static Badge" src="https://img.shields.io/badge/ANUlab-Atrovel-blue">
@@ -9,6 +9,7 @@
 
 # Make your own
 A guide on how to make your own Atrovel calculator
+
 
 ## Components
 * Arduino Nano/Arduino Pro Micro/Raspberry Pi pico - (I'm using RPI pico), anything small enough to fit inside will work
