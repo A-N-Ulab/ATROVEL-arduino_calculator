@@ -19,24 +19,21 @@
 * case
 * tp4056 BMS
 
-### Case
-Download latest release. There are two files
-
-### Electric Diagram
-Wiring diagram for RPI pico
-[Schematic Atrovel.pdf](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/files/13798303/Schematic.Atrovel.pdf)
-It requires to modify TP4056 BMS like that:
-![20231230_151600](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/efb826f4-d096-450f-b4ba-79e10b34b2af)
-
-### Software
+### Case and software
 Download latest release
 
-#### Known problems
-If you ar going to do some calculations e.g. 2+2 and then press square root of it, it won't work. But if you press 4 and then square root of it, it will work.
+### Electric Diagram
+Wiring diagram for RPI pico, also comes with the lates release.
+[Schematic Atrovel.pdf](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/files/13798303/Schematic.Atrovel.pdf)
+Wiring of Atrovel requires to modifying TP4056 BMS like that:
+![20231230_151600](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/efb826f4-d096-450f-b4ba-79e10b34b2af)
 
-#### **READ THIS IF YOU ARE USING RASPBERRY PI PICO**'
-For the display to work you're gonna have to declare that you are using different pins as I2C that default. Below is how i did it but there probably is a better way.
-Find file ```pinmode_arduino.h```, find it here in Windows installations of Arduino IDE:
+#### Known problems
+If you are going to do some calculations e.g. 2+2 and then press square root of it, it won't work. But if you press 4 and then square root of it, it will work. It might be fixed in another release of Atrovel.
+
+#### **READ THIS IF YOU ARE/WILL BE USING RASPBERRY PI PICO**'
+For the display to work you're gonna have to declare that you are using different pins as I2C than default. Below is my solution - changing default I2C pins.
+Find file ```pinmode_arduino.h``` here in Windows installations of Arduino IDE:
 ```C:\Users\USERNAME\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\2.5.2\variants\RASPBERRY_PI_PICO```
 Modify as below:
 ![sda](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/0a93c4d0-0f1c-4c15-99ae-a7676c97000a)
