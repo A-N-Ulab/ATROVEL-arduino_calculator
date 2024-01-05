@@ -35,17 +35,17 @@ Wiring of Atrovel requires to modifying TP4056 BMS like that:
 <img width="200" src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/d48bbf6a-5378-418c-9f0d-4324b425b3f6">
 
 
-#### Known problems
+### Known problems
 If you are going to do some calculations e.g. 2+2 and then press square root of it, it won't work. But if you press 4 and then square root of it, it will work. It might be fixed in another release of Atrovel.
 
-#### **READ THIS IF YOU ARE/WILL BE USING RASPBERRY PI PICO**'
+### **READ THIS IF YOU ARE/WILL BE USING RASPBERRY PI PICO**'
 For the display to work you're gonna have to declare that you are using different pins as I2C than default. Below is my solution - changing default I2C pins.
 Find file ```pinmode_arduino.h``` here in Windows installations of Arduino IDE:
 ```C:\Users\USERNAME\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\2.5.2\variants\RASPBERRY_PI_PICO```
 Modify as below:
 ![sda](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/0a93c4d0-0f1c-4c15-99ae-a7676c97000a)
 
-# License
+## License
 This project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
 ![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
