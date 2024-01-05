@@ -7,6 +7,12 @@
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/A-N-Ulab/ATROVEL-arduino_calculator">
 </p>
 
+# Story
+This calculator is an effect of a project started in school. We were learning how to use 8x8 button matrix with arduino and I was a little bit bored so I started making a calculator. I have always wanted to make one. I acknowledge, this is not the best solution you can find but it works. All you need to do is solder (or not) everything and put it in some sort of case, you can use the one provided in this repository or something completely different.   
+**Disclaimer**: There is a high chance that 8x8 matrix is not connected properly. I will be able to check it in a few days.   
+
+#### I hope you will enjoy this project as much as i did
+
 # Make your own
 ### Components
 * Arduino Nano/Arduino Pro Micro/Raspberry Pi pico - (I'm using RPI pico), anything small enough to fit inside will work
