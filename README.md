@@ -20,13 +20,14 @@
 * tp4056 BMS
 
 ### Case and software
-Download latest release
+Download latest [release](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/releases/latest)
 
 ### Electric Diagram
 Wiring diagram for RPI pico, also comes with the lates release.
 [Schematic Atrovel.pdf](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/files/13798303/Schematic.Atrovel.pdf)
-Wiring of Atrovel requires to modifying TP4056 BMS like that:
-![20231230_151600](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/efb826f4-d096-450f-b4ba-79e10b34b2af)
+Wiring of Atrovel requires to modifying TP4056 BMS like that:  
+<img width="200" src="https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/d48bbf6a-5378-418c-9f0d-4324b425b3f6">
+
 
 #### Known problems
 If you are going to do some calculations e.g. 2+2 and then press square root of it, it won't work. But if you press 4 and then square root of it, it will work. It might be fixed in another release of Atrovel.
