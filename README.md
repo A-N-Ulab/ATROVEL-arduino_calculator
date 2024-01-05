@@ -8,7 +8,7 @@
 </p>
 
 # Make your own
-## Components
+### Components
 * Arduino Nano/Arduino Pro Micro/Raspberry Pi pico - (I'm using RPI pico), anything small enough to fit inside will work
 * 0.96 display
 * 4x4 button matrix
@@ -19,23 +19,22 @@
 * case
 * tp4056 BMS
 
-## Case
-If you want to 3D print the case use ```bottomV2.stl``` and ```main_body.stl``` from folder labeled rev2. In main_body there are holes prepered for bolts but there is no room left inside so bottom cover is glued.
+### Case
+Download latest release. There are two files
 
-## Electric Diagram
+### Electric Diagram
 Wiring diagram for RPI pico
 [Schematic Atrovel.pdf](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/files/13798303/Schematic.Atrovel.pdf)
 It requires to modify TP4056 BMS like that:
 ![20231230_151600](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/assets/131162335/efb826f4-d096-450f-b4ba-79e10b34b2af)
 
-## Software
-Upload latest arduino code to your board and you are ready to go
-Latest code: ```Calc_software_v1_27122023```
+### Software
+Download latest release
 
-### Known problems
+#### Known problems
 If you ar going to do some calculations e.g. 2+2 and then press square root of it, it won't work. But if you press 4 and then square root of it, it will work.
 
-### **READ THIS IF YOU ARE USING RASPBERRY PI PICO**'
+#### **READ THIS IF YOU ARE USING RASPBERRY PI PICO**'
 For the display to work you're gonna have to declare that you are using different pins as I2C that default. Below is how i did it but there probably is a better way.
 Find file ```pinmode_arduino.h```, find it here in Windows installations of Arduino IDE:
 ```C:\Users\USERNAME\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\2.5.2\variants\RASPBERRY_PI_PICO```
