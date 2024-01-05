@@ -4,6 +4,7 @@
 <p align="center">
   <img alt="Static Badge" src="https://img.shields.io/badge/ANUlab-Atrovel-blue">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/A-N-Ulab/ATROVEL-arduino_calculator">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/A-N-Ulab/ATROVEL-arduino_calculator">
 </p>
 
 # Story
