@@ -25,8 +25,12 @@ This calculator is an effect of a project started in school. We were learning ho
 * case
 * tp4056 BMS
 
-### Case and software
-Download latest [release](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/releases/latest)
+### Case, software and label
+Download latest [release](https://github.com/A-N-Ulab/ATROVEL-arduino_calculator/releases/latest) containing code, cad files (.stl, .stp, .f3d), label(how buttons are mapped, to print) and electrical diagram   
+All cad files(even older ones, including first reviusion of calculator's case) are avaiable in this branch in folder named ```cad files```   
+Electrical diagram and label are in this branch in folder named ```PDF's```    
+Every code revision is also avaiable in this branch in folder named ```code```
+
 
 ### Electric Diagram
 Wiring diagram for RPI pico, also comes with the lates release.
